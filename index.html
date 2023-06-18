@@ -1,10 +1,277 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <!-- Primary content template -->
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Tetiana Rudomanenko</h1>
+            <h3 class="contact-info__sub-header">General Surgeon</h3>
+
+            <!-- Contact info items -->
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  href="mailto:rudomanenko.tatyana@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <style>
+                        svg {
+                          fill: #b7bbc3;
+                        }
+                      </style>
+                      <path
+                        d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                      />
+                    </svg>
+                  </div>
+                  <span>rudomanenko.tatyana@gmail.com</span>
+                </a>
+
+                <a
+                  href="tel:+380686329696"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <style>
+                        svg {
+                          fill: #b7bbc3;
+                        }
+                      </style>
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                  </div>
+                  <span>+380686329696</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar-rudomanenko.png"
+                  alt="Avatar"
+                >
+              </div>
+
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 384 512"
+                    >
+                      <style>
+                        svg {
+                          fill: #b7bbc3;
+                        }
+                      </style>
+                      <path
+                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Odessa, Ukraine</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/dr.rudomanenko/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                    >
+                      <style>
+                        svg {
+                          fill: #b7bbc3;
+                        }
+                      </style>
+                      <path
+                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Facebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intro block -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I am a Ukrainian surgeon who has decided to start my life with a
+                clean slate, and together with Bulka I would like to make this
+                interesting journey this summer. Thanks to Binari Studio Academy
+                for this opportunity &#129299;
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills block -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                Reconstructive surgeries of face and body (local, regional and
+                free flaps). A month ago I started learning HTML, CSS,
+                JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience block template -->
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <!-- Experiences -->
+
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__company">
+                  <!-- Work place 1 -->
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >January 2023 — Present</span
+                    >
+                    <h4 class="experiences__company-header-name">
+                      Medical Project Manager and Surgeon for Mission Face to
+                      Face, Lviv, Ukraine
+                    </h4>
+                  </div>
+                  <!-- Work place 2 -->
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >January 2023 — February 2023</span
+                    >
+                    <h4 class="experiences__company-header-name">
+                      Fellowship at the University Hospital of Graz, Department
+                      of Reconstructive, Aesthetic and Plastic Surgery, Graz,
+                      Austria
+                    </h4>
+                  </div>
+
+                  <!-- Work place 3 -->
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >August 2022 — November 2022</span
+                    >
+                    <h4 class="experiences__company-header-name">
+                      Fellowship at the Hospital da Luz, Department of Plastic
+                      and Reconstructive Surgery, Lisbon, Portugal
+                    </h4>
+                  </div>
+
+                  <!-- Work place 4 -->
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >September 2021 — June 2022</span
+                    >
+                    <h4 class="experiences__company-header-name">
+                      Medical secretary of Ukrainian Sarcoma Group at the
+                      University Clinic ONMU,Odesa, Ukraine
+                    </h4>
+                  </div>
+
+                  <!-- Work place 5 -->
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >July 2019 — June 2022</span
+                    >
+                    <h4 class="experiences__company-header-name">
+                      General Surgeon at the University Clinic ONMU, Department
+                      of Oncology, Odesa, Ukraine
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional-info -->
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2013 - 2022</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      MD, General Surgeon
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Odesa National Medical University
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    Ukrainian (native)
+                  </p>
+                  <p class="additional-info__languages-item">English B2</p>
+                  <p class="additional-info__languages-item">German A2</p>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Hobbies</h3>
+                  <p class="additional-info__languages-item">Tennis</p>
+                  <p class="additional-info__languages-item">Yoga</p>
+                  <p class="additional-info__languages-item">Travelling</p>
+                  <p class="additional-info__languages-item">Jogging</p>
+                  <p class="additional-info__languages-item">Skiing</p>
+                  <p class="additional-info__languages-item">Cycling</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
